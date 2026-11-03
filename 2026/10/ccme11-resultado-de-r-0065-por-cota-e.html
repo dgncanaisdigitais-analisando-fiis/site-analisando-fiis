@@ -16,8 +16,9 @@
 <meta content='https://dgncanaisdigitais-analisando-fiis.github.io/painel-analisando-fiis/banners/fundo_de_fundos.jpg' name='twitter:image'/>
 <meta content='max-image-preview:large' name='robots'/>
 <meta content='70e831464b20e96a7af27a78f61e3a46' name='p:domain_verify'/>
+<link href='/img/logo-blog.png' rel='icon' type='image/png'/>
 <link href='/feed.xml' rel='alternate' title='Analisando FIIs' type='application/atom+xml'/>
-<link href='https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap' rel='stylesheet'/>
+<link href='https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Montserrat:wght@600;800&display=swap' rel='stylesheet'/>
 <script async='async' src='https://www.googletagmanager.com/gtag/js?id=G-H588QJM8R8'></script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-H588QJM8R8');</script>
 <script type='application/ld+json'>{"@context": "https://schema.org", "@type": "BlogPosting", "headline": "CCME11: resultado de R$ 0,065 por cota e novo CRI de R$ 25 milhões | Relatório de setembro/2026", "description": "A análise usa somente os dados do relatório gerencial de setembro de 2026 e não constitui recomendação de investimento.", "mainEntityOfPage": "https://www.analisandofiis.com.br/2026/10/ccme11-resultado-de-r-0065-por-cota-e.html", "image": "https://dgncanaisdigitais-analisando-fiis.github.io/painel-analisando-fiis/banners/fundo_de_fundos.jpg", "datePublished": "2026-10-31T22:51:33-03:00", "dateModified": "2026-11-02T20:47:57-03:00", "author": {"@type": "Organization", "name": "Analisando FIIs"}, "publisher": {"@type": "Organization", "name": "Analisando FIIs"}}</script>
@@ -219,32 +220,29 @@
     @media(max-width:620px){.v4-destaques,.v4-pregao,.v4-portas{grid-template-columns:1fr}.v4-item{grid-template-columns:1fr}.v4-item .v4-thumb{aspect-ratio:3/1}.v4-fund-head{grid-template-columns:1fr}}
 
   
-/* site estático (ADR-105): cabeçalho, listas e artigo */
-.se-header{position:sticky;top:0;z-index:20;background:rgba(3,18,37,.92);backdrop-filter:blur(8px);border-bottom:1px solid rgba(212,175,55,.25)}
-.se-header .container{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:12px 16px;max-width:var(--max);margin:0 auto}
-.se-brand{color:#fff;text-decoration:none;font-weight:800;letter-spacing:.3px;font-size:1.15rem}.se-brand b{color:var(--gold)}
-.se-nav{display:flex;flex-wrap:wrap;gap:6px 14px}.se-nav a{color:#DDE3EE;text-decoration:none;font-size:.95rem}.se-nav a:hover{color:var(--gold)}
-.se-main{max-width:var(--max);margin:0 auto;padding:24px 16px 48px}
-.se-hero{padding:32px 0 8px}.se-hero h1{margin:0 0 8px;font-size:clamp(1.6rem,3vw,2.4rem)}.se-hero p{color:var(--muted);max-width:70ch;margin:0}
-.se-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:18px;margin-top:20px}
-.se-card{background:var(--navy-900);border:1px solid rgba(255,255,255,.06);border-radius:var(--radius);overflow:hidden;display:flex;flex-direction:column}
-.se-card img{width:100%;aspect-ratio:3/1;object-fit:cover;display:block}.se-card .se-body{padding:14px 16px 18px}
-.se-card h3{margin:0 0 8px;font-size:1.02rem;line-height:1.35}.se-card h3 a{color:#fff;text-decoration:none}.se-card h3 a:hover{color:var(--gold)}
-.se-meta{color:var(--muted);font-size:.82rem}.se-labels a{color:var(--gold);text-decoration:none;font-size:.8rem;margin-right:8px}
-.se-article{max-width:860px;margin:0 auto}.se-article h1{font-size:clamp(1.5rem,2.6vw,2.2rem);line-height:1.25;margin:8px 0 10px}
-.se-article .post-body{line-height:1.7;font-size:1.04rem}.se-article .post-body img,.se-article .post-body iframe{max-width:100%}
-.se-article .post-body figure{margin:0 0 1em}.se-article .post-body a{color:var(--gold-light)}
-.se-article .post-body table{border-collapse:collapse;width:100%;overflow-x:auto;display:block}.se-article .post-body td,.se-article .post-body th{border:1px solid rgba(255,255,255,.12);padding:6px 8px}
-.se-footer{border-top:1px solid rgba(212,175,55,.25);padding:28px 16px;color:var(--muted);font-size:.88rem}
-.se-footer .container{max-width:var(--max);margin:0 auto;display:flex;flex-wrap:wrap;gap:8px 18px;justify-content:space-between}
-.se-footer a{color:#DDE3EE;text-decoration:none}.se-footer a:hover{color:var(--gold)}
+/* site estático (ADR-105): o que o JavaScript do tema fazia e aqui é fixo */
+.v4-rio .v4-oculto{display:none}.v4-rio-mais[hidden]{display:none}
+.se-busca-form{display:flex;gap:10px;margin:8px 0 18px}.se-busca-form input{flex:1;min-width:0;padding:12px 14px;border-radius:12px;border:1px solid #CBD5E1;background:#fff;color:#0F172A;font-size:1rem}
+.se-busca-form button{padding:12px 18px;border-radius:12px;border:0;background:var(--gold);color:#071A35;font-weight:800;cursor:pointer}
+.se-lista{display:grid;gap:14px}.se-titulo-lista{margin:0 0 4px}.se-sub{color:#AEBCCB;margin:0 0 18px}
 .se-pager{display:flex;gap:16px;justify-content:space-between;margin-top:28px}.se-pager a{color:var(--gold);text-decoration:none}
 </style>
 </head>
 <body>
-<header class='se-header'><div class='container'><a class='se-brand' href='/'>Analisando <b>FIIs</b></a><nav class='se-nav' aria-label='Navegação principal'><a href='/'>Início</a><a href='/search/label/Giro/'>Giro</a><a href='/search/label/Análise/'>Análises</a><a href='/search/label/FII/'>FIIs</a><a href='/search/label/FIAGRO/'>FIAGROs</a><a href='/search/label/Ranking/'>Rankings</a><a href='/p/sobre.html'>Sobre</a></nav></div></header>
-<main class='se-main'>
-<article class='se-article'><h1>CCME11: resultado de R$ 0,065 por cota e novo CRI de R$ 25 milhões | Relatório de setembro/2026</h1><div class='se-meta'>Publicado em 31 de outubro de 2026</div><div class='se-labels'><a href='/search/label/An%C3%A1lise/'>Análise</a><a href='/search/label/CCME11/'>CCME11</a><a href='/search/label/FII/'>FII</a><a href='/search/label/Relat%C3%B3rio%20gerencial/'>Relatório gerencial</a></div><div class='post-body entry-content'><figure style="text-align:center;margin:0 0 1em"><img width="1200" height="400" alt="Banner ilustrativo do post sobre o relatório gerencial do CCME11" src="https://dgncanaisdigitais-analisando-fiis.github.io/painel-analisando-fiis/banners/fundo_de_fundos.jpg" style="max-width:100%;height:auto"></figure>
+  <header class='site-header'>
+    <div class='container topbar'>
+      <a class='brand' href='/'>
+        <div class='brand-mark'><img alt='Analisando FIIs' src='/img/logo-blog.png'/> </div>
+        <div><div class='brand-name'>ANALISANDO <span>FIIs</span></div><div class='brand-tag'>ENTENDA ANTES DE INVESTIR</div></div>
+      </a>
+      <form action='/search/' class='search' method='get'><span aria-hidden='true'>&#8981;</span><input aria-label='Pesquisar no site' name='q' placeholder='Pesquisar no site...' type='search'/></form>
+      <a class='youtube-btn' href='https://www.youtube.com/channel/UCJrNLh4EXrJQlBEfE4HG2UA?sub_confirmation=1' rel='noopener' target='_blank'>&#9654; YouTube</a>
+    </div>
+    <input aria-controls='primary-navigation' aria-label='Abrir ou fechar menu principal' class='nav-toggle' id='nav-toggle' type='checkbox'/>
+    <label class='nav-toggle-label' for='nav-toggle'>&#9776; MENU</label>
+    <div class='nav-row'><nav aria-label='Navegação principal' class='container nav' id='primary-navigation'><a href='/'>Início</a><a href='/search/label/Giro/'>Giro</a><a href='/search/label/An%C3%A1lise/'>Análises</a><a href='/#v4-fundos'>Fundos</a><a href='/search/label/FII/'>FIIs</a><a href='/search/label/FIAGRO/'>FIAGROs</a><a href='/search/label/Indicador/'>Indicadores</a><a href='/p/sobre.html'>Sobre</a></nav></div>
+  </header>
+<div class='container content-wrap'><div class='content-shell'><div class='main native-content-section' id='main'><article class='native-post post-fallback'><h1 class='post-title native-post-title'>CCME11: resultado de R$ 0,065 por cota e novo CRI de R$ 25 milhões | Relatório de setembro/2026</h1><div class='post-meta native-post-meta'><a href='/search/label/An%C3%A1lise/' rel='tag'>Análise</a> &#8226; <a href='/search/label/CCME11/' rel='tag'>CCME11</a> &#8226; <a href='/search/label/FII/' rel='tag'>FII</a> &#8226; <a href='/search/label/Relat%C3%B3rio%20gerencial/' rel='tag'>Relatório gerencial</a></div><section class='v4-fund-head'><div class='v4-nome'>FII<b>CCME11 &#183; CANUMA CAPITAL MULTIESTRATÉGIA FUNDO DE INVESTIMENTO IMOBILIÁRIO RESPONSABILIDADE LIMITADA</b></div><div><span>Último fechamento</span><strong>R$ 8,48</strong><small>30/10/2026</small></div><div><span>Último provento</span><strong>R$ 0,086</strong><small>data com 08/10/2026, pagamento 16/10/2026</small></div><div><span>Último relatório</span><strong><a href='https://fnet.bmfbovespa.com.br/fnet/publico/downloadDocumento?id=1362904' rel='noopener'>outubro/2026</a></strong><small>entregue em 29/10/2026</small></div><div><span>No canal</span><strong><a href='/2026/10/ccme11-resultado-de-r-0065-por-cota-e.html'>análise</a></strong><small>apuração de 03/11/2026 08:03</small></div></section><div class='post-body native-post-body entry-content'><figure style="text-align:center;margin:0 0 1em"><img width="1200" height="400" alt="Banner ilustrativo do post sobre o relatório gerencial do CCME11" src="https://dgncanaisdigitais-analisando-fiis.github.io/painel-analisando-fiis/banners/fundo_de_fundos.jpg" style="max-width:100%;height:auto"></figure>
 <blockquote>Conteúdo educacional e informativo. A análise usa somente os dados do relatório gerencial de setembro de 2026 e não constitui recomendação de investimento.</blockquote>
 <p>CCME11, relatório de setembro de 2026: resultado de R$ 0,065 por cota e novo CRI de R$ 25 milhões.</p>
 <figure style="text-align:center"><a href="https://fnet.bmfbovespa.com.br/fnet/publico/downloadDocumento?id=1362904" rel="noopener"><img alt="QR Code para o relatório gerencial oficial" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPYAAAD2CAIAAABqcO2fAAAF+0lEQVR4nO3d0W0rOQwF0GQRN7A9bP8FbQ/bgD+8Bcz7EAiRUi7O+Y49Y+dC8BAU9f35fL4g11+nbwB6iTjhRJxwIk44ESeciBNOxAkn4oQTccKJOOFEnHA/K3/0+vufr3Pe//275X12fYqV+3le6/mq2v3Urt73Pd+fDas44USccCJOOBEnnIgTbqmi0lflqD2hT9Yiap905VW7aix97/wqfRtns/FkFSeciBNOxAkn4oQTccIVKypn+yJW3ud5P7X6QK3bZFcdZuVT1N55stvkbDas4oQTccKJOOFEnHAiTrhtFZX71SohtcrMrurNU+19Xgv309czc5ZVnHAiTjgRJ5yIE07ECfcrKyq1Z//JTpIVu+oVfTNbMljFCSfihBNxwok44USccNsqKn3TM3ZdfXJCy9luk8n60v3ZsIoTTsQJJ+KEE3HCiTjhihWVsz0Pu/bdTFYnJu/n6T3YtXJbP4xVnHAiTjgRJ5yIE07ECff9+Xy+fptdHSD376CZPJ/obB9LH6s44USccCJOOBEnnIgT7ue2J+uzT/G7Tj0+WwlZudbTrlm1fecK1b4fqzjhRJxwIk44ESeciBPuutOTazWN23pdVq7VV3Xpe9X76CnMNVZxwok44USccCJOOBEnXONZP5PnBe9657PTa2tdIpM1lvvPrX6yihNOxAkn4oQTccKJOOG2Tabd9ew/Oa+171OsXKt2P7VrvQd3M+2y679sFSeciBNOxAkn4oQTccI19qjU9D3F99VhVq61637OTso9u3OqxipOOBEnnIgTTsQJJ+KEG931M9nzMNnrUnPbvJHX9ecym0wLf+CHCuFEnHAiTjgRJ9xSRaVvxsVkz0Nf30hNX+/NitdgP8zZXiCrOOFEnHAiTjgRJ5yIE25018/knNXJysyu6kTfZ3+3zWPZ9dn7/l9WccKJOOFEnHAiTjgRJ9z35/PZ8kZ9e2r6zgzqu5+zlZCVq99WO1JRgSI/VAgn4oQTccKJOOGWKip99Yq+M3wzqgGTe45eg//lyVqWVZxwIk44ESeciBNOxAlX3PWzaybJb6xyrNi1f2flnSdPR5qcafNU+6RWccKJOOFEnHAiTjgRJ1xx18+uGSBnn7Vv+xQrzs5IeQ/2FK28s4oK+KFCOr/FCSfihBNxwjXOUelz/4k8k+dE/8adQZOdNlZxwok44USccCJOOBEn3NKun5Wn3fvnx9ae68/21Zz97E99daE+VnHCiTjhRJxwIk44ESfcr+xRqembDTu5X6Zv3839vUB2/cAf+KFCOBEnnIgTTsQJV5xMW3PbxI/atVZeVfubp12f9F2qjfR10azY9T+1ihNOxAkn4oQTccKJOOGKpyffNhXktlpN36v6+ljegz08k6zihBNxwok44USccCJOuG09Kmd3x0zWB1acPTdncs/Ru637ZRerOOFEnHAiTjgRJ5yIE260R2VXT0jfhNvJ2bArr7ptJ86KyVqW05PBDxXS+S1OOBEnnIgTbrRHpe95vK/DYXISbMY9v47WxJ6s4oQTccKJOOFEnHAiTrif3/hcP7lfpnY/t3WSvI7WfM5W26zihBNxwok44USccCJOuG2nJ0/qm4Y6+ex/216qp7MnKO1iFSeciBNOxAkn4oQTccIt9ajcNpdjco/PZK9L3/f8Hjyb6bZrWcUJJ+KEE3HCiTjhRJxwxV0/t52e3HfS0K5+j6e+9+nrWnm6rX7yZBUnnIgTTsQJJ+KEE3HCHZ5Mu+t5vK8asKtvpK+XY6Va8iqdaFz7m5q+KpBVnHAiTjgRJ5yIE07ECdc4mXbSrjkht1Vvzr7qNTg3uK/XxSpOOBEnnIgTTsQJJ+KEC6moTO4D6nPbvpv34PfT1/1iFSeciBNOxAkn4oQTccJtq6hMVh5qV99VY9l1P0/3T2g5ezZT7X6s4oQTccKJOOFEnHAiTrhiReXs6T+1J/TbZq1MTla5be/SZH6s4oQTccKJOOFEnHAiTrjvz+dz+h6gkVWccCJOOBEnnIgTTsQJJ+KEE3HCiTjhRJxwIk44Eecr2/+PVaX6g8GYPAAAAABJRU5ErkJggg==" style="max-width:180px;height:auto"></a><figcaption>Leia o QR Code para acessar o relatório oficial</figcaption></figure>
@@ -344,8 +342,17 @@
 <p>Relatório gerencial de setembro de 2026 do CCME11, publicado no FNET (B3): <a href="https://fnet.bmfbovespa.com.br/fnet/publico/downloadDocumento?id=1362904" rel="noopener">abrir o documento oficial</a>.</p>
 <p>Fonte única e exclusiva: Relatório Mensal do FII Canuma Capital Multiestratégia (CCME11) entregue em 29 de outubro de 2026, documento FNET 1362904 (40 páginas: a 1 capa, as 2 a 4 o resumo da gestão, a 5 o destaque do mês, as 6 a 8 o portfólio, as 9 e 10 o resultado gerencial, as 11 e 12 os FIIs e ações, as 13 a 16 o imóvel KASA Vila Olímpia, as 17 a 25 os CRIs, as 26 a 30 a estratégia do fundo, as 31 e 32 as informações gerais e as 33 a 40 a mídia e os contatos). Nenhum conhecimento externo, cotação de mercado atual, indicador macroeconômico atual ou outro documento foi usado. As citações de página usam a posição da página no PDF.</p>
 <blockquote>Este conteúdo tem finalidade exclusivamente educacional e informativa. Não constitui recomendação de compra, venda ou manutenção de investimentos. Investimentos envolvem riscos, inclusive perda de capital. Leia os documentos oficiais e considere seus objetivos e seu perfil antes de tomar decisões.</blockquote>
-</div></article>
-</main>
-<footer class='se-footer'><div class='container'><div><a href='/p/sobre.html'>Sobre</a><a href='/p/metodologia.html'>Metodologia</a><a href='/p/como-analisar.html'>Como analisar</a><a href='/p/comece-por-aqui.html'>Comece por aqui</a><a href='/p/aviso-legal.html'>Aviso legal</a><a href='/p/politica-de-privacidade.html'>Política de privacidade</a><a href='/p/termos-de-uso.html'>Termos de uso</a></div><div>Conteúdo educacional, sem recomendação de investimento. © Analisando FIIs</div></div></footer>
+</div><section class='v4-related'><h2>Do mesmo fundo</h2><ul><li><a href='/2026/10/giro-de-fiis-e-fiagros-de-30-de-outubro.html'>Giro de FIIs e FIAGROs de 30 de outubro de 2026</a><small>30/10/2026</small></li></ul><h2>Leia também</h2><ul><li><a href='/2026/11/hsaf11-r-095-por-cota-com-resultado-de.html'>HSAF11: R$ 0,95 por cota com resultado de R$ 0,88 e cota a R$ 77,00 | Relatório de setembro/2026</a><small>02/11/2026</small></li><li><a href='/2026/11/btag11-r-130-por-cota-reserva-de-r-207.html'>BTAG11: R$ 1,30 por cota, reserva de R$ 2,07 e carteira a CDI + 4,7% | Relatório de agosto/2026</a><small>02/11/2026</small></li><li><a href='/2026/11/knca11-r-093-por-cota-14-em-caixa-e-cra.html'>KNCA11: R$ 0,93 por cota, 14% em caixa e CRA SuperFrio remarcado | Relatório de setembro/2026</a><small>02/11/2026</small></li><li><a href='/2026/11/figs11-r-048-por-cota-noi-sobe-23-e-upa.html'>FIGS11: R$ 0,48 por cota, NOI sobe 23% e UPA no Shopping Bonsucesso | Relatório de setembro/2026</a><small>02/11/2026</small></li></ul></section></article></div></div></div>
+  <footer class='site-footer'>
+    <div class='container'>
+      <div class='footer-grid'>
+        <div><div class='brand-name'>ANALISANDO <span>FIIs</span></div><p style='color:#AEBCCB;max-width:420px'>Conteúdo educacional sobre FIIs, FIAGROs, indicadores, riscos e temas que afetam o mercado.</p></div>
+        <div><h3>Aprenda</h3><a href='/search/label/FII/'>FIIs</a><a href='/search/label/FIAGRO/'>FIAGROs</a><a href='/search/label/Indicador/'>Indicadores</a></div>
+        <div><h3>Conteúdo</h3><a href='/search/label/An%C3%A1lise/'>Análises</a><a href='/search/'>Todos os artigos</a><a href='https://www.youtube.com/channel/UCJrNLh4EXrJQlBEfE4HG2UA?sub_confirmation=1' rel='noopener' target='_blank'>Canal no YouTube</a></div>
+        <div><h3>Institucional</h3><a href='/p/metodologia.html'>Metodologia</a><a href='/p/sobre.html'>Sobre</a><a href='/p/aviso-legal.html'>Aviso legal</a><a href='/p/politica-de-privacidade.html'>Privacidade</a></div>
+      </div>
+      <div class='footer-bottom'><span>&#169; Analisando FIIs &#8212; Conteúdo educacional.</span><span>Investimentos envolvem riscos. Faça sua própria análise.</span></div>
+    </div>
+  </footer>
 </body>
 </html>

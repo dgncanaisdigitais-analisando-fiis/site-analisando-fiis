@@ -16,8 +16,9 @@
 <meta content='https://dgncanaisdigitais-analisando-fiis.github.io/painel-analisando-fiis/banners/og-padrao.jpg' name='twitter:image'/>
 <meta content='max-image-preview:large' name='robots'/>
 <meta content='70e831464b20e96a7af27a78f61e3a46' name='p:domain_verify'/>
+<link href='/img/logo-blog.png' rel='icon' type='image/png'/>
 <link href='/feed.xml' rel='alternate' title='Analisando FIIs' type='application/atom+xml'/>
-<link href='https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap' rel='stylesheet'/>
+<link href='https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Montserrat:wght@600;800&display=swap' rel='stylesheet'/>
 <script async='async' src='https://www.googletagmanager.com/gtag/js?id=G-H588QJM8R8'></script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-H588QJM8R8');</script>
 <style>
@@ -218,33 +219,39 @@
     @media(max-width:620px){.v4-destaques,.v4-pregao,.v4-portas{grid-template-columns:1fr}.v4-item{grid-template-columns:1fr}.v4-item .v4-thumb{aspect-ratio:3/1}.v4-fund-head{grid-template-columns:1fr}}
 
   
-/* site estático (ADR-105): cabeçalho, listas e artigo */
-.se-header{position:sticky;top:0;z-index:20;background:rgba(3,18,37,.92);backdrop-filter:blur(8px);border-bottom:1px solid rgba(212,175,55,.25)}
-.se-header .container{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:12px 16px;max-width:var(--max);margin:0 auto}
-.se-brand{color:#fff;text-decoration:none;font-weight:800;letter-spacing:.3px;font-size:1.15rem}.se-brand b{color:var(--gold)}
-.se-nav{display:flex;flex-wrap:wrap;gap:6px 14px}.se-nav a{color:#DDE3EE;text-decoration:none;font-size:.95rem}.se-nav a:hover{color:var(--gold)}
-.se-main{max-width:var(--max);margin:0 auto;padding:24px 16px 48px}
-.se-hero{padding:32px 0 8px}.se-hero h1{margin:0 0 8px;font-size:clamp(1.6rem,3vw,2.4rem)}.se-hero p{color:var(--muted);max-width:70ch;margin:0}
-.se-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:18px;margin-top:20px}
-.se-card{background:var(--navy-900);border:1px solid rgba(255,255,255,.06);border-radius:var(--radius);overflow:hidden;display:flex;flex-direction:column}
-.se-card img{width:100%;aspect-ratio:3/1;object-fit:cover;display:block}.se-card .se-body{padding:14px 16px 18px}
-.se-card h3{margin:0 0 8px;font-size:1.02rem;line-height:1.35}.se-card h3 a{color:#fff;text-decoration:none}.se-card h3 a:hover{color:var(--gold)}
-.se-meta{color:var(--muted);font-size:.82rem}.se-labels a{color:var(--gold);text-decoration:none;font-size:.8rem;margin-right:8px}
-.se-article{max-width:860px;margin:0 auto}.se-article h1{font-size:clamp(1.5rem,2.6vw,2.2rem);line-height:1.25;margin:8px 0 10px}
-.se-article .post-body{line-height:1.7;font-size:1.04rem}.se-article .post-body img,.se-article .post-body iframe{max-width:100%}
-.se-article .post-body figure{margin:0 0 1em}.se-article .post-body a{color:var(--gold-light)}
-.se-article .post-body table{border-collapse:collapse;width:100%;overflow-x:auto;display:block}.se-article .post-body td,.se-article .post-body th{border:1px solid rgba(255,255,255,.12);padding:6px 8px}
-.se-footer{border-top:1px solid rgba(212,175,55,.25);padding:28px 16px;color:var(--muted);font-size:.88rem}
-.se-footer .container{max-width:var(--max);margin:0 auto;display:flex;flex-wrap:wrap;gap:8px 18px;justify-content:space-between}
-.se-footer a{color:#DDE3EE;text-decoration:none}.se-footer a:hover{color:var(--gold)}
+/* site estático (ADR-105): o que o JavaScript do tema fazia e aqui é fixo */
+.v4-rio .v4-oculto{display:none}.v4-rio-mais[hidden]{display:none}
+.se-busca-form{display:flex;gap:10px;margin:8px 0 18px}.se-busca-form input{flex:1;min-width:0;padding:12px 14px;border-radius:12px;border:1px solid #CBD5E1;background:#fff;color:#0F172A;font-size:1rem}
+.se-busca-form button{padding:12px 18px;border-radius:12px;border:0;background:var(--gold);color:#071A35;font-weight:800;cursor:pointer}
+.se-lista{display:grid;gap:14px}.se-titulo-lista{margin:0 0 4px}.se-sub{color:#AEBCCB;margin:0 0 18px}
 .se-pager{display:flex;gap:16px;justify-content:space-between;margin-top:28px}.se-pager a{color:var(--gold);text-decoration:none}
 </style>
 </head>
 <body>
-<header class='se-header'><div class='container'><a class='se-brand' href='/'>Analisando <b>FIIs</b></a><nav class='se-nav' aria-label='Navegação principal'><a href='/'>Início</a><a href='/search/label/Giro/'>Giro</a><a href='/search/label/Análise/'>Análises</a><a href='/search/label/FII/'>FIIs</a><a href='/search/label/FIAGRO/'>FIAGROs</a><a href='/search/label/Ranking/'>Rankings</a><a href='/p/sobre.html'>Sobre</a></nav></div></header>
-<main class='se-main'>
-<section class='se-hero'><h1>RBVA11</h1><p>1 publicações com o rótulo RBVA11.</p></section><div class='se-grid'><article class='se-card'><a href='/2026/10/rbva11-multa-do-santander-sustenta.html'><img alt='' loading='lazy' src='https://dgncanaisdigitais-analisando-fiis.github.io/painel-analisando-fiis/banners/imobiliario.jpg'/></a><div class='se-body'><h3><a href='/2026/10/rbva11-multa-do-santander-sustenta.html'>RBVA11: multa do Santander sustenta resultado, mas guidance cai | Relatório de agosto/2026</a></h3><div class='se-meta'>2 de outubro de 2026</div><div class='se-labels'><a href='/search/label/An%C3%A1lise/'>Análise</a><a href='/search/label/FII/'>FII</a><a href='/search/label/RBVA11/'>RBVA11</a></div></div></article></div>
-</main>
-<footer class='se-footer'><div class='container'><div><a href='/p/sobre.html'>Sobre</a><a href='/p/metodologia.html'>Metodologia</a><a href='/p/como-analisar.html'>Como analisar</a><a href='/p/comece-por-aqui.html'>Comece por aqui</a><a href='/p/aviso-legal.html'>Aviso legal</a><a href='/p/politica-de-privacidade.html'>Política de privacidade</a><a href='/p/termos-de-uso.html'>Termos de uso</a></div><div>Conteúdo educacional, sem recomendação de investimento. © Analisando FIIs</div></div></footer>
+  <header class='site-header'>
+    <div class='container topbar'>
+      <a class='brand' href='/'>
+        <div class='brand-mark'><img alt='Analisando FIIs' src='/img/logo-blog.png'/> </div>
+        <div><div class='brand-name'>ANALISANDO <span>FIIs</span></div><div class='brand-tag'>ENTENDA ANTES DE INVESTIR</div></div>
+      </a>
+      <form action='/search/' class='search' method='get'><span aria-hidden='true'>&#8981;</span><input aria-label='Pesquisar no site' name='q' placeholder='Pesquisar no site...' type='search'/></form>
+      <a class='youtube-btn' href='https://www.youtube.com/channel/UCJrNLh4EXrJQlBEfE4HG2UA?sub_confirmation=1' rel='noopener' target='_blank'>&#9654; YouTube</a>
+    </div>
+    <input aria-controls='primary-navigation' aria-label='Abrir ou fechar menu principal' class='nav-toggle' id='nav-toggle' type='checkbox'/>
+    <label class='nav-toggle-label' for='nav-toggle'>&#9776; MENU</label>
+    <div class='nav-row'><nav aria-label='Navegação principal' class='container nav' id='primary-navigation'><a href='/'>Início</a><a href='/search/label/Giro/'>Giro</a><a href='/search/label/An%C3%A1lise/'>Análises</a><a href='/#v4-fundos'>Fundos</a><a href='/search/label/FII/'>FIIs</a><a href='/search/label/FIAGRO/'>FIAGROs</a><a href='/search/label/Indicador/'>Indicadores</a><a href='/p/sobre.html'>Sobre</a></nav></div>
+  </header>
+<div class='container content-wrap'><div class='content-shell'><div class='main native-content-section' id='main'><h1 class='post-title se-titulo-lista'>RBVA11</h1><p class='se-sub'>1 publicações com o rótulo RBVA11.</p><section class='v4-fund-head'><div class='v4-nome'>FII<b>RBVA11 &#183; RIO BRAVO RENDA VAREJO FUNDO DE INVESTIMENTO IMOBILIÁRIO DE RESPONSABILIDADE LIMITADA</b></div><div><span>Último fechamento</span><strong>R$ 8,12</strong><small>30/10/2026</small></div><div><span>Último provento</span><strong>R$ 0,09</strong><small>data com 30/10/2026, pagamento 13/11/2026</small></div><div><span>Último relatório</span><strong><a href='https://fnet.bmfbovespa.com.br/fnet/publico/downloadDocumento?id=1356195' rel='noopener'>setembro/2026</a></strong><small>entregue em 21/10/2026</small></div><div><span>No canal</span><strong><a href='/2026/10/rbva11-multa-do-santander-sustenta.html'>análise</a> &#183; <a href='https://youtu.be/iEI9PhigweQ?sub_confirmation=1' rel='noopener'>vídeo</a></strong><small>apuração de 03/11/2026 08:03</small></div></section><div class='v4-rio se-lista'><a class='v4-item' href='/2026/10/rbva11-multa-do-santander-sustenta.html'><div class='v4-thumb' style="background-image:url('https://dgncanaisdigitais-analisando-fiis.github.io/painel-analisando-fiis/banners/imobiliario.jpg')"></div><div><div class='v4-kicker'><span class='v4-chip'>RBVA11</span><span>Relatório gerencial</span><time>02/10/2026</time></div><strong>RBVA11: multa do Santander sustenta resultado, mas guidance cai | Relatório de agosto/2026</strong></div></a></div></div></div></div>
+  <footer class='site-footer'>
+    <div class='container'>
+      <div class='footer-grid'>
+        <div><div class='brand-name'>ANALISANDO <span>FIIs</span></div><p style='color:#AEBCCB;max-width:420px'>Conteúdo educacional sobre FIIs, FIAGROs, indicadores, riscos e temas que afetam o mercado.</p></div>
+        <div><h3>Aprenda</h3><a href='/search/label/FII/'>FIIs</a><a href='/search/label/FIAGRO/'>FIAGROs</a><a href='/search/label/Indicador/'>Indicadores</a></div>
+        <div><h3>Conteúdo</h3><a href='/search/label/An%C3%A1lise/'>Análises</a><a href='/search/'>Todos os artigos</a><a href='https://www.youtube.com/channel/UCJrNLh4EXrJQlBEfE4HG2UA?sub_confirmation=1' rel='noopener' target='_blank'>Canal no YouTube</a></div>
+        <div><h3>Institucional</h3><a href='/p/metodologia.html'>Metodologia</a><a href='/p/sobre.html'>Sobre</a><a href='/p/aviso-legal.html'>Aviso legal</a><a href='/p/politica-de-privacidade.html'>Privacidade</a></div>
+      </div>
+      <div class='footer-bottom'><span>&#169; Analisando FIIs &#8212; Conteúdo educacional.</span><span>Investimentos envolvem riscos. Faça sua própria análise.</span></div>
+    </div>
+  </footer>
 </body>
 </html>

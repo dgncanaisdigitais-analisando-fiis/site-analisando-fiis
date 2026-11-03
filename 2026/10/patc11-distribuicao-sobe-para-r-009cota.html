@@ -16,8 +16,9 @@
 <meta content='https://dgncanaisdigitais-analisando-fiis.github.io/painel-analisando-fiis/banners/lajes.jpg' name='twitter:image'/>
 <meta content='max-image-preview:large' name='robots'/>
 <meta content='70e831464b20e96a7af27a78f61e3a46' name='p:domain_verify'/>
+<link href='/img/logo-blog.png' rel='icon' type='image/png'/>
 <link href='/feed.xml' rel='alternate' title='Analisando FIIs' type='application/atom+xml'/>
-<link href='https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap' rel='stylesheet'/>
+<link href='https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Montserrat:wght@600;800&display=swap' rel='stylesheet'/>
 <script async='async' src='https://www.googletagmanager.com/gtag/js?id=G-H588QJM8R8'></script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-H588QJM8R8');</script>
 <script type='application/ld+json'>{"@context": "https://schema.org", "@type": "BlogPosting", "headline": "PATC11: distribuição sobe para R$ 0,09/cota, mas reserva segue em queda | Relatório de agosto/2026", "description": "A análise usa somente os dados do relatório gerencial de agosto de 2026 e não constitui recomendação de investimento.", "mainEntityOfPage": "https://www.analisandofiis.com.br/2026/10/patc11-distribuicao-sobe-para-r-009cota.html", "image": "https://dgncanaisdigitais-analisando-fiis.github.io/painel-analisando-fiis/banners/lajes.jpg", "datePublished": "2026-10-02T14:19:58-03:00", "dateModified": "2026-11-02T20:55:23-03:00", "author": {"@type": "Organization", "name": "Analisando FIIs"}, "publisher": {"@type": "Organization", "name": "Analisando FIIs"}}</script>
@@ -219,32 +220,29 @@
     @media(max-width:620px){.v4-destaques,.v4-pregao,.v4-portas{grid-template-columns:1fr}.v4-item{grid-template-columns:1fr}.v4-item .v4-thumb{aspect-ratio:3/1}.v4-fund-head{grid-template-columns:1fr}}
 
   
-/* site estático (ADR-105): cabeçalho, listas e artigo */
-.se-header{position:sticky;top:0;z-index:20;background:rgba(3,18,37,.92);backdrop-filter:blur(8px);border-bottom:1px solid rgba(212,175,55,.25)}
-.se-header .container{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:12px 16px;max-width:var(--max);margin:0 auto}
-.se-brand{color:#fff;text-decoration:none;font-weight:800;letter-spacing:.3px;font-size:1.15rem}.se-brand b{color:var(--gold)}
-.se-nav{display:flex;flex-wrap:wrap;gap:6px 14px}.se-nav a{color:#DDE3EE;text-decoration:none;font-size:.95rem}.se-nav a:hover{color:var(--gold)}
-.se-main{max-width:var(--max);margin:0 auto;padding:24px 16px 48px}
-.se-hero{padding:32px 0 8px}.se-hero h1{margin:0 0 8px;font-size:clamp(1.6rem,3vw,2.4rem)}.se-hero p{color:var(--muted);max-width:70ch;margin:0}
-.se-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:18px;margin-top:20px}
-.se-card{background:var(--navy-900);border:1px solid rgba(255,255,255,.06);border-radius:var(--radius);overflow:hidden;display:flex;flex-direction:column}
-.se-card img{width:100%;aspect-ratio:3/1;object-fit:cover;display:block}.se-card .se-body{padding:14px 16px 18px}
-.se-card h3{margin:0 0 8px;font-size:1.02rem;line-height:1.35}.se-card h3 a{color:#fff;text-decoration:none}.se-card h3 a:hover{color:var(--gold)}
-.se-meta{color:var(--muted);font-size:.82rem}.se-labels a{color:var(--gold);text-decoration:none;font-size:.8rem;margin-right:8px}
-.se-article{max-width:860px;margin:0 auto}.se-article h1{font-size:clamp(1.5rem,2.6vw,2.2rem);line-height:1.25;margin:8px 0 10px}
-.se-article .post-body{line-height:1.7;font-size:1.04rem}.se-article .post-body img,.se-article .post-body iframe{max-width:100%}
-.se-article .post-body figure{margin:0 0 1em}.se-article .post-body a{color:var(--gold-light)}
-.se-article .post-body table{border-collapse:collapse;width:100%;overflow-x:auto;display:block}.se-article .post-body td,.se-article .post-body th{border:1px solid rgba(255,255,255,.12);padding:6px 8px}
-.se-footer{border-top:1px solid rgba(212,175,55,.25);padding:28px 16px;color:var(--muted);font-size:.88rem}
-.se-footer .container{max-width:var(--max);margin:0 auto;display:flex;flex-wrap:wrap;gap:8px 18px;justify-content:space-between}
-.se-footer a{color:#DDE3EE;text-decoration:none}.se-footer a:hover{color:var(--gold)}
+/* site estático (ADR-105): o que o JavaScript do tema fazia e aqui é fixo */
+.v4-rio .v4-oculto{display:none}.v4-rio-mais[hidden]{display:none}
+.se-busca-form{display:flex;gap:10px;margin:8px 0 18px}.se-busca-form input{flex:1;min-width:0;padding:12px 14px;border-radius:12px;border:1px solid #CBD5E1;background:#fff;color:#0F172A;font-size:1rem}
+.se-busca-form button{padding:12px 18px;border-radius:12px;border:0;background:var(--gold);color:#071A35;font-weight:800;cursor:pointer}
+.se-lista{display:grid;gap:14px}.se-titulo-lista{margin:0 0 4px}.se-sub{color:#AEBCCB;margin:0 0 18px}
 .se-pager{display:flex;gap:16px;justify-content:space-between;margin-top:28px}.se-pager a{color:var(--gold);text-decoration:none}
 </style>
 </head>
 <body>
-<header class='se-header'><div class='container'><a class='se-brand' href='/'>Analisando <b>FIIs</b></a><nav class='se-nav' aria-label='Navegação principal'><a href='/'>Início</a><a href='/search/label/Giro/'>Giro</a><a href='/search/label/Análise/'>Análises</a><a href='/search/label/FII/'>FIIs</a><a href='/search/label/FIAGRO/'>FIAGROs</a><a href='/search/label/Ranking/'>Rankings</a><a href='/p/sobre.html'>Sobre</a></nav></div></header>
-<main class='se-main'>
-<article class='se-article'><h1>PATC11: distribuição sobe para R$ 0,09/cota, mas reserva segue em queda | Relatório de agosto/2026</h1><div class='se-meta'>Publicado em 2 de outubro de 2026</div><div class='se-labels'><a href='/search/label/An%C3%A1lise/'>Análise</a><a href='/search/label/FII/'>FII</a><a href='/search/label/PATC11/'>PATC11</a><a href='/search/label/Relat%C3%B3rio%20gerencial/'>Relatório gerencial</a></div><div class='post-body entry-content'><figure style="text-align:center;margin:0 0 1em"><img width="1200" height="400" alt="Banner ilustrativo do post sobre o relatório gerencial do PATC11" src="https://dgncanaisdigitais-analisando-fiis.github.io/painel-analisando-fiis/banners/lajes.jpg" style="max-width:100%;height:auto"></figure>
+  <header class='site-header'>
+    <div class='container topbar'>
+      <a class='brand' href='/'>
+        <div class='brand-mark'><img alt='Analisando FIIs' src='/img/logo-blog.png'/> </div>
+        <div><div class='brand-name'>ANALISANDO <span>FIIs</span></div><div class='brand-tag'>ENTENDA ANTES DE INVESTIR</div></div>
+      </a>
+      <form action='/search/' class='search' method='get'><span aria-hidden='true'>&#8981;</span><input aria-label='Pesquisar no site' name='q' placeholder='Pesquisar no site...' type='search'/></form>
+      <a class='youtube-btn' href='https://www.youtube.com/channel/UCJrNLh4EXrJQlBEfE4HG2UA?sub_confirmation=1' rel='noopener' target='_blank'>&#9654; YouTube</a>
+    </div>
+    <input aria-controls='primary-navigation' aria-label='Abrir ou fechar menu principal' class='nav-toggle' id='nav-toggle' type='checkbox'/>
+    <label class='nav-toggle-label' for='nav-toggle'>&#9776; MENU</label>
+    <div class='nav-row'><nav aria-label='Navegação principal' class='container nav' id='primary-navigation'><a href='/'>Início</a><a href='/search/label/Giro/'>Giro</a><a href='/search/label/An%C3%A1lise/'>Análises</a><a href='/#v4-fundos'>Fundos</a><a href='/search/label/FII/'>FIIs</a><a href='/search/label/FIAGRO/'>FIAGROs</a><a href='/search/label/Indicador/'>Indicadores</a><a href='/p/sobre.html'>Sobre</a></nav></div>
+  </header>
+<div class='container content-wrap'><div class='content-shell'><div class='main native-content-section' id='main'><article class='native-post post-fallback'><h1 class='post-title native-post-title'>PATC11: distribuição sobe para R$ 0,09/cota, mas reserva segue em queda | Relatório de agosto/2026</h1><div class='post-meta native-post-meta'><a href='/search/label/An%C3%A1lise/' rel='tag'>Análise</a> &#8226; <a href='/search/label/FII/' rel='tag'>FII</a> &#8226; <a href='/search/label/PATC11/' rel='tag'>PATC11</a> &#8226; <a href='/search/label/Relat%C3%B3rio%20gerencial/' rel='tag'>Relatório gerencial</a></div><section class='v4-fund-head'><div class='v4-nome'>FII<b>PATC11 &#183; PÁTRIA EDIFÍCIOS CORPORATIVOS - FUNDO DE INVESTIMENTO IMOBILIÁRIO - RESPONSABILIDADE LIMITADA</b></div><div><span>Último fechamento</span><strong>R$ 33,95</strong><small>30/10/2026</small></div><div><span>Último provento</span><strong>R$ 0,09</strong><small>data com 30/10/2026, pagamento 10/11/2026</small></div><div><span>Último relatório</span><strong><a href='https://fnet.bmfbovespa.com.br/fnet/publico/downloadDocumento?id=1348096' rel='noopener'>setembro/2026</a></strong><small>entregue em 13/10/2026</small></div><div><span>No canal</span><strong><a href='/2026/10/patc11-distribuicao-sobe-para-r-009cota.html'>análise</a> &#183; <a href='https://youtu.be/o-pzxbX-TMk?sub_confirmation=1' rel='noopener'>vídeo</a></strong><small>apuração de 03/11/2026 08:03</small></div></section><div class='post-body native-post-body entry-content'><figure style="text-align:center;margin:0 0 1em"><img width="1200" height="400" alt="Banner ilustrativo do post sobre o relatório gerencial do PATC11" src="https://dgncanaisdigitais-analisando-fiis.github.io/painel-analisando-fiis/banners/lajes.jpg" style="max-width:100%;height:auto"></figure>
 <blockquote>Conteúdo educacional e informativo. A análise usa somente os dados do relatório gerencial de agosto de 2026 e não constitui recomendação de investimento.</blockquote>
 <p>PATC11, relatório de agosto de 2026: distribuição sobe para R$ 0,09/cota, mas reserva segue em queda.</p>
 <figure style="text-align:center"><a href="https://fnet.bmfbovespa.com.br/fnet/publico/downloadDocumento?id=1316609" rel="noopener"><img alt="QR Code para o relatório gerencial oficial" src="data:image/png;base64,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" style="max-width:180px;height:auto"></a><figcaption>Leia o QR Code para acessar o relatório oficial</figcaption></figure>
@@ -312,8 +310,17 @@
 <p>Relatório gerencial de agosto de 2026 do PATC11, publicado no FNET (B3): <a href="https://fnet.bmfbovespa.com.br/fnet/publico/downloadDocumento?id=1316609" rel="noopener">abrir o documento oficial</a>.</p>
 <p>Fonte única e exclusiva: Relatório Gerencial Patria Edifícios Corporativos FII, competência agosto/2026, documento FNET 1316609 (17 páginas). Nenhum conhecimento externo, cotação de mercado atual, indicador macroeconômico atual ou outro documento foi usado. Citações de página referem-se à numeração impressa do PDF.</p>
 <blockquote>Este conteúdo tem finalidade exclusivamente educacional e informativa. Não constitui recomendação de compra, venda ou manutenção de investimentos. Investimentos envolvem riscos, inclusive perda de capital. Leia os documentos oficiais e considere seus objetivos e seu perfil antes de tomar decisões.</blockquote>
-</div></article>
-</main>
-<footer class='se-footer'><div class='container'><div><a href='/p/sobre.html'>Sobre</a><a href='/p/metodologia.html'>Metodologia</a><a href='/p/como-analisar.html'>Como analisar</a><a href='/p/comece-por-aqui.html'>Comece por aqui</a><a href='/p/aviso-legal.html'>Aviso legal</a><a href='/p/politica-de-privacidade.html'>Política de privacidade</a><a href='/p/termos-de-uso.html'>Termos de uso</a></div><div>Conteúdo educacional, sem recomendação de investimento. © Analisando FIIs</div></div></footer>
+</div><section class='v4-related'><h2>Leia também</h2><ul><li><a href='/2026/11/hsaf11-r-095-por-cota-com-resultado-de.html'>HSAF11: R$ 0,95 por cota com resultado de R$ 0,88 e cota a R$ 77,00 | Relatório de setembro/2026</a><small>02/11/2026</small></li><li><a href='/2026/11/btag11-r-130-por-cota-reserva-de-r-207.html'>BTAG11: R$ 1,30 por cota, reserva de R$ 2,07 e carteira a CDI + 4,7% | Relatório de agosto/2026</a><small>02/11/2026</small></li><li><a href='/2026/11/knca11-r-093-por-cota-14-em-caixa-e-cra.html'>KNCA11: R$ 0,93 por cota, 14% em caixa e CRA SuperFrio remarcado | Relatório de setembro/2026</a><small>02/11/2026</small></li><li><a href='/2026/11/figs11-r-048-por-cota-noi-sobe-23-e-upa.html'>FIGS11: R$ 0,48 por cota, NOI sobe 23% e UPA no Shopping Bonsucesso | Relatório de setembro/2026</a><small>02/11/2026</small></li></ul></section></article></div></div></div>
+  <footer class='site-footer'>
+    <div class='container'>
+      <div class='footer-grid'>
+        <div><div class='brand-name'>ANALISANDO <span>FIIs</span></div><p style='color:#AEBCCB;max-width:420px'>Conteúdo educacional sobre FIIs, FIAGROs, indicadores, riscos e temas que afetam o mercado.</p></div>
+        <div><h3>Aprenda</h3><a href='/search/label/FII/'>FIIs</a><a href='/search/label/FIAGRO/'>FIAGROs</a><a href='/search/label/Indicador/'>Indicadores</a></div>
+        <div><h3>Conteúdo</h3><a href='/search/label/An%C3%A1lise/'>Análises</a><a href='/search/'>Todos os artigos</a><a href='https://www.youtube.com/channel/UCJrNLh4EXrJQlBEfE4HG2UA?sub_confirmation=1' rel='noopener' target='_blank'>Canal no YouTube</a></div>
+        <div><h3>Institucional</h3><a href='/p/metodologia.html'>Metodologia</a><a href='/p/sobre.html'>Sobre</a><a href='/p/aviso-legal.html'>Aviso legal</a><a href='/p/politica-de-privacidade.html'>Privacidade</a></div>
+      </div>
+      <div class='footer-bottom'><span>&#169; Analisando FIIs &#8212; Conteúdo educacional.</span><span>Investimentos envolvem riscos. Faça sua própria análise.</span></div>
+    </div>
+  </footer>
 </body>
 </html>
