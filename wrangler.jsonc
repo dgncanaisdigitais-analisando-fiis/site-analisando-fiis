@@ -1,0 +1,8 @@
+{
+  // ADR-122: gerado por tools/site_estatico.py; não editar à mão
+  "name": "analisandofiis-site",
+  "main": "_cloudflare/worker.js",
+  "compatibility_date": "2026-10-01",
+  "workers_dev": true,
+  "assets": {"directory": ".", "binding": "ASSETS", "html_handling": "none"}
+}
